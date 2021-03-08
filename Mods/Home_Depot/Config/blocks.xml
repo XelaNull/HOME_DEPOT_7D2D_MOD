@@ -799,6 +799,7 @@
 
 
 	<!-- Fix Wood Pillar 50 to be craftable and upgradable, which includes creating rWoodPillar50 & rWoodMetalPillar50 -->
+	<!--
 	<set xpath="/blocks/block[@name='woodPillar50']/property[@name='Extends']/@value">woodMaster</set>
 	<append xpath="/blocks/block[@name='woodPillar50']">
 		<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodPillar50"/> </property>
@@ -810,7 +811,7 @@
 			<property name="Shape" value="New"/>
 			<property name="Path" value="solid"/>
 			<property name="Model" value="Pole0.5m"/>
-			<property name="SortOrder2" value="0740"/> <!-- SortShape -->
+			<property name="SortOrder2" value="0740"/>
 			<property name="LightOpacity" value="0"/>
 			<property name="UseGlobalUV" value="Local"/>
 			<property name="ImposterDontBlock" value="true"/>
@@ -819,6 +820,7 @@
 			<property name="DowngradeBlock" value="woodPillar50"/>
 		</block>
 	</append>
+-->
 
 	<append xpath="/blocks">
 		<block name="rWoodMetalPillar50">
@@ -832,11 +834,12 @@
 			<property name="ImposterDontBlock" value="true"/>
 			<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="67"/>
 			<property class="UpgradeBlock"> <property name="ToBlock" value="scrapIronPillar50"/> </property>
-			<property name="DowngradeBlock" value="rWoodPillar50"/>
+			<!--<property name="DowngradeBlock" value="rWoodPillar50"/>-->
 		</block>
 	</append>
 
 	<!-- Fix Wood Corner Round & Corner Round Top to be craftable and upgradable, which includes reinforced and metalreinforced versions -->
+	<!--
 	<set xpath="/blocks/block[@name='woodCNRRound']/property[@name='Extends']/@value">woodMaster</set>
 	<append xpath="/blocks/block[@name='woodCNRRound']">
 		<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodCNRRound"/> </property>
@@ -848,12 +851,13 @@
 			<property name="Shape" value="New"/>
 			<property name="Path" value="solid"/>
 			<property name="Model" value="corner_round1m"/>
-			<property name="SortOrder2" value="0480"/> <!-- SortShape -->
+			<property name="SortOrder2" value="0480"/>
 			<property name="ImposterExchange" value="imposterBlock" param1="67"/>
 			<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodMetalCNRRound"/> </property>
 			<property name="DowngradeBlock" value="woodCNRRound"/>
 		</block>
 	</append>
+-->
 
 	<append xpath="/blocks">
 		<block name="rWoodMetalCNRRound">
@@ -864,10 +868,11 @@
 			<property name="SortOrder2" value="0480"/> <!-- SortShape -->
 			<property name="ImposterExchange" value="imposterBlock" param1="67"/>
 			<property class="UpgradeBlock"> <property name="ToBlock" value="scrapIronCNRRound"/> </property>
-			<property name="DowngradeBlock" value="rWoodCNRRound"/>
+			<!--<property name="DowngradeBlock" value="rWoodCNRRound"/>-->
 		</block>
 	</append>
 
+<!--
 	<set xpath="/blocks/block[@name='woodCNRRoundTop']/property[@name='Extends']/@value">woodMaster</set>
 	<append xpath="/blocks/block[@name='woodCNRRoundTop']">
 		<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodCNRRoundTop"/> </property>
@@ -879,13 +884,13 @@
 			<property name="Shape" value="New"/>
 			<property name="Path" value="solid"/>
 			<property name="Model" value="corner_rounded"/>
-			<property name="SortOrder2" value="0490"/> <!-- SortShape -->
+			<property name="SortOrder2" value="0490"/> 
 			<property name="ImposterExchange" value="imposterBlock" param1="67"/>
 			<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodMetalCNRRoundTop"/> </property>
 			<property name="DowngradeBlock" value="woodCNRRoundTop"/>
 		</block>
 	</append>
-
+-->
 	<append xpath="/blocks">
 		<block name="rWoodMetalCNRRoundTop">
 			<property name="Extends" value="rWoodMetalMaster"/>
@@ -895,7 +900,7 @@
 			<property name="SortOrder2" value="0490"/> <!-- SortShape -->
 			<property name="ImposterExchange" value="imposterBlock" param1="67"/>
 			<property class="UpgradeBlock"> <property name="ToBlock" value="scrapIronCNRRoundTop"/> </property>
-			<property name="DowngradeBlock" value="rWoodCNRRoundTop"/>
+			<!--<property name="DowngradeBlock" value="rWoodCNRRoundTop"/>-->
 		</block>
 	</append>
 
