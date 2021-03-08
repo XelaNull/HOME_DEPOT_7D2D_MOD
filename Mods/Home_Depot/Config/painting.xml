@@ -3,7 +3,7 @@
 	UN-HIDE HIDDEN TEXTURES (the ones that aren't bugged)
 	================================ -->
 	<remove xpath="/paints/paint[@id='138']/property[@name='Hidden']"/>
-	<remove xpath="/paints/paint[@id='148']/property[@name='Hidden']"/>
+	<!--<remove xpath="/paints/paint[@id='148']/property[@name='Hidden']"/>-->
 
 
 <!--================================
@@ -38,16 +38,76 @@
 			<property name="PaintCost" value="2" />
 		</paint>
 
-<!-- Probably should make/keep Hidden? -->
+		<paint id="246" name="new_pipe_metal_cap">
+			<property name="TextureId"  value="598"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>
+
+		<paint id="247" name="new_pipe_metal">
+			<property name="TextureId"  value="597"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>
+
+		<paint id="248" name="new_stained_glass">
+			<property name="TextureId"  value="596"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>
+
+		<paint id="249" name="new_washing_machine">
+			<property name="TextureId"  value="554"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>
+
+		<!-- Probably should make/keep Hidden? -->
 		<paint id="250" value="txName_HomeLCB">
 			<property name="TextureId" value="189"/>
 			<property name="Group" value="Home Depot"/>
 			<property name="PaintCost" value="2" />
 			<property name="Hidden" value="true" />
 		</paint>
+
+		<!-- Taken from: https://github.com/Laotseu/7dtdMods/ -->
+
+		<paint id="251" name="new_heat_vent">
+			<property name="TextureId"  value="340"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>		
+
+		<paint id="252" name="new_glass_opaque_bulletproof">
+			<property name="TextureId"  value="334"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>
+
+		<paint id="253" name="new_keystone">
+			<property name="TextureId"  value="189"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>
+
+		<paint id="254" name="new_concrete_reinforced_wet">
+			<property name="TextureId"  value="176"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>
+
+		<paint id="255" name="new_metal_rivet">
+			<property name="TextureId"  value="47"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>
+
+		<paint id="256" name="new_road_railing">
+			<property name="TextureId"  value="442"/>
+			<property name="Group" value="atxGroupDecoration"/>
+			<property name="PaintCost" value="1" />
+		</paint>
 	</append>
-
-
 <!--================================
 	TEXTURE ID NUMBERS (Different than Paint ID Numbers)
 	================================ -->
