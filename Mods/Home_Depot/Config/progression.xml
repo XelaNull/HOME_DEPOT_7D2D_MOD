@@ -36,7 +36,7 @@
 	</append>
 
 	<!-- Include Home Filtered Water Cooler Recipes (Locked behind YeahScience 3) -->
-	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group">
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="Home Filtered Water Cooler"/>
 	</append>
 
